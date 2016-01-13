@@ -22,6 +22,10 @@
     self.view.backgroundColor = [UIColor yellowColor];
     NSLog(@"11111");
     
+    UILabel* titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(100, 100, 120, 120)];
+    titleLabel.text = @"你好春哥";
+    [self.view addSubview:titleLabel];
+    
 }
 
 - (void)didReceiveMemoryWarning {
